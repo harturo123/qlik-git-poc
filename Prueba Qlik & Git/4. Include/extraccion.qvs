@@ -1,0 +1,10 @@
+Datos:
+LOAD
+    oficina,
+    ventas
+FROM [lib://Import/datos.xlsx]
+(ooxml, embedded labels, table is Hoja1);
+
+Store Datos into [lib://QVD/datos.qvd];
+
+Drop Table Datos;

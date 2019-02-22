@@ -1,0 +1,7 @@
+Datos:
+LOAD
+    oficina	as Oficina,
+    ventas	as Ventas
+FROM [lib://QVD/datos.qvd]
+(qvd);
+
