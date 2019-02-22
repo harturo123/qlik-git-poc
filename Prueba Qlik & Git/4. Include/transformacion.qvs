@@ -1,7 +1,8 @@
 Datos:
 LOAD
     oficina	as Oficina,
-    ventas	as Ventas
+    ventas	as Ventas,
+	2019	as Año
 FROM [lib://QVD/datos.qvd]
 (qvd);
 
