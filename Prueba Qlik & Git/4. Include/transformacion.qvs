@@ -2,7 +2,8 @@ Datos:
 LOAD
     oficina	as Oficina,
     ventas	as Ventas,
-	2019	as Año
+	2019	as Año,
+	'AMV'	as Usuario
 FROM [lib://QVD/datos.qvd]
 (qvd);
 
