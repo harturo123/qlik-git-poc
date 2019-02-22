@@ -1,3 +1,4 @@
+// Cargar y transformar los datos de ventas
 Datos:
 LOAD
     oficina	as Oficina,
